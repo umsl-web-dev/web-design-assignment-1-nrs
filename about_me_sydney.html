@@ -3,22 +3,35 @@
 
 <head>
     <title> Sydney Roberson </title>
+    <link rel="stylesheet" type="text/css" href="navStyle.css">
     <style>
-        * {margin: 3; padding: 3px;}
-    body{display: inline-block; *display: inline; zoom: 1; vertical-align: top; }
+        * {margin: 3px; padding: 3px;}
+    
+        #skillz, #work_Experience, #volunteer_Experience, #honors_Awards
+        {
+            display: inline-block; *display: inline; zoom: 1; vertical-align: top;
+            position: inherit; right:0px; width:400px; border:400px; border: 3px solid rgb(31, 160, 153); padding: 10px
+        }
+
+        body
+         {
+            background-color: #fffdea; text-align: left;  display: inline-flex;
+         }
     </style>
 </head>
-<!-- ATTENTION COMMENTS WHERE INLINE STYLING -->
-    <!-- style="text-align: left; background-color: #eff3cf;" -->
-        <body style="text-align: left; background-color: #f5e76d; display: inline-flex;">
-            <!-- style= "text-align: left;" -->
-            <nav >
-                <a href="./home_page.html"> Homepage | </a>
-                <a href="./about_me_sydney.html"> Sydney | </a>
+
+        <body>
+        
+            <nav>
+                <ul>
+                    <li> <a class="active" href="./home_page.html"> Home </a> </li> 
+                    <li> <a href="./about_me_sydney.html"> Sydney </a> </li> 
+                </ul>
+                
             </nav>  
        
         <h1> Sydney Roberson </h1>
-            <div id="who_Am_I"; >
+            <div id="who_Am_I"; style="display:inline-block" >
                 <h2> Who am I? </h2>
                     <img src='./resources/linkedin.jpg' width="200" height="200" style="border-image: rgb(0, 0, 0)">
                         <p>
@@ -37,8 +50,8 @@
                 <!-- Link to your Github, IG, FB, LinkedIn by using logo images -->
             </section>
 
-<!-- style="position: inherit; right:0px; width:400px; border:400px; border: 3px solid rgb(31, 160, 153); padding: 10px" -->
-            <div id="skillz" style="position: inherit; right:0px; width:400px; border:400px; border: 3px solid rgb(31, 160, 153); padding: 10px">
+
+            <div id="skillz">
                 <h2> My Skills </h2>
                     <p align="left">
                         <ul>
@@ -63,8 +76,8 @@
                     </p>
                 </div>
         <br>
-<!-- style="position: inherit; right:0px; width:400px; border:400px; border: 3px solid rgb(31, 160, 153); padding: 10px;" -->
-            <div id="work_Experience" style="position: inherit; right:0px; width:400px; border:400px; border: 3px solid rgb(31, 160, 153); padding: 10px">
+
+            <div id="work_Experience">
                 <h2> Work Experience </h2>
                     <ul>
                         <li> <b> The Boeing Company </b> </li> 
@@ -92,8 +105,8 @@
                     </ul>
                 </div>
         <br>
-<!-- style="position: inherit; right:0px; width: 400px; border:400px; border: 3px solid rgb(31, 160, 153); padding: 10px;" -->
-        <div id="volunteer_Experience" style="position: inherit; right:0px; width:400px; border:400px; border: 3px solid rgb(31, 160, 153); padding: 10px">
+
+        <div id="volunteer_Experience">
             <h2> Community Service </h2>
                 <ul>
                     <li> <b> Speaker at the 2016 HIV Prevention Conference- <br> Chicago, October 2016 </b></li>
@@ -118,8 +131,8 @@
                 </ul>
             </div>
         <br>
-<!-- style="position: inherit; right:0px; width: 400px; border:400px; border: 3px solid rgb(31, 160, 153); padding: 10px;" -->
-        <div id="honors_Awards" style="position: inherit; right:0px; width:400px; border:400px; border: 3px solid rgb(31, 160, 153); padding: 10px" >
+
+        <div id="honors_Awards">
                 <h2> Honors and Awards </h2>
                     <ul>
                             <li> University of Missouri-St. Louis, Dean’s List for the 2017-2018, 2018-2019 semesters </li> 

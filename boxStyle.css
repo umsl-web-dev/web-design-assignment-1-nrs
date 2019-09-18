@@ -1,5 +1,0 @@
-* {margin: 0; padding: 0;}
-#skillz, #work_Experience, #volunteer_Experience {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12; }
-#skillz {width: 25%; background: blue;}
-#work_Experience {width: 25%; background: green;}
-#volunteer_Experience {width: 25%; background: yellow;}
