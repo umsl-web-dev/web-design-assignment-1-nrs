@@ -1,7 +1,44 @@
-nav
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+  }
+  
+ nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  nav li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  nav li:last-child {
+    border-bottom: none;
+  }
+  
+  nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+/* nav
 {
     text-align: left;
     display: inline;
+    margin:0px;
 }
 
 nav ul 
@@ -15,14 +52,15 @@ nav ul
   
 nav li 
 {
-    float: left;
+    float: inherit;
+    border-bottom: 1px solid #555;
+    border-right-width: 3px;
 }
   
 nav li a 
 {
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -36,39 +74,5 @@ nav li a:hover
 .active 
 {
     background-color: #2bcde2;
-}
+} */
   
-
-    /* ul
-    {
-        float: left;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        background-color: #f1f1f1;
-    }
-
-        li
-        {
-            display: inline;
-        }
-            li a
-            {
-                
-                display: block;
-                color: #000;
-                padding: 8px 16px;
-                text-decoration: none; 
-            } 
-
-
-                li a :hover
-                {
-                    background-color: #555;
-                    color: white;
-                }
-                    .active 
-                    {
-                        background-color: #2bcde2;
-                    } */
