@@ -5,6 +5,7 @@
     <title> Professional </title>
     <link rel="stylesheet" href="tableStyle.css">
     <link rel="stylesheet" href="navStyle.css">
+    <link rel="stylesheet" href="footerStyle.css">
     
    
 </head>
@@ -13,19 +14,28 @@
     <nav>
         <ul>
             <li>
-                <a class="active" href="./home_page.html"> Home </a>
+                <a href="./home_page.html"> Home </a>
             </li>
             <li>
-                <a href="./about_me_sydney.html"> Sydney </a>
+                <a class="active" href="./about_me_sydney.html"> Sydney </a>
             </li>
         </ul>
     </nav>
-    <br>
+
+    <nav id="current2">
+            <ul>
+                <li> <a class="active2" href="professional_page.html"> &#8592; Professional </a> </li>  
+                <li> <a  href="personal_page.html"> Personal &#8594; </a> </li>  
+            </ul> 
+            </nav>
+
+    <h1> Professional Information </h1>
 
     <table>
         <tr>
             <th> My Skills </th>
             <th > Work Experience </th>
+            <th> Connect with me! </th>
         </tr>
         <tr>
             <td id="skills">
@@ -85,6 +95,17 @@
                         </ul>
                     </ul>
             </td>
+
+            <td id="Social Media" rowspan="3">
+                    <ul>
+                       <li style="list-style-type: none;"> <a href="https://github.com/strnfk"><img src="resources/github.png" height="120" width="120"> </a> </li> 
+                       <li style="list-style-type: none;"> <a href="https://www.instagram.com/roberson.sydney/?hl=en"> <img src="resources/Instagram.jfif" height="120" width="120"> </a> </li>
+                       <li style="list-style-type: none;"> <a href="https://www.facebook.com/sydney.roberson.5"> <img src="resources/facebook.png" height="80" width="80"> </a> </li>
+                       <li style="list-style-type: none;"> <a href="https://www.linkedin.com/in/sydney-roberson-789b55174?trk=people-guest_profile-result-card_result-card_full-click"><img src="resources/linkedinPic.png" height="120" width="120"> </a> </li> 
+                    </ul>
+                    
+    
+                </td>
         </tr>
 
         <tr>
@@ -151,14 +172,15 @@
             </td>
         </tr>
     </table>
-
     <br>
-<nav id="bottom-nav">
-<ul>
-    <li> <a href="personal_page.html";> Personal &#8594; </a> </li>  
-</ul> 
-</nav>
+    
 
+<footer>
+ <p>
+     Sydney R. <br>
+     Contact me: strnfk@mail.umsl.edu
+ </p>
+</footer>
 </body>
 
 </html>
