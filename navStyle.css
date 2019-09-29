@@ -1,0 +1,54 @@
+nav
+{
+    text-align: left;
+    display: inline;
+    margin:0px;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(4, 165, 185);
+}
+  
+nav li 
+{
+    float: left;
+    border-bottom: 1px solid #555;
+    border-right-width: 3px;
+
+}
+  
+nav li a 
+{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover 
+{
+    background-color: #555;
+    color: white;
+}
+
+#current2 .active2 
+{
+  background: linear-gradient(to left,#1ac95de5,#0457ef);
+    /* background-color: #1ac95de5; */
+}
+
+#current .active 
+{
+  background: linear-gradient(to right,#1ac95de5,#0457ef);
+    /* background-color: #1ac95de5; */
+}
+.active 
+{
+    background-color: #1ac95de5;
+}
+  
