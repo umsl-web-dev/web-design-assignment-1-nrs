@@ -2,14 +2,16 @@ table
 {
     border: 3px solid rgb(31, 160, 153);
     border-collapse: collapse;
-    margin-right:15cm;
-   
+    margin-right:0px;
+    
 }
 
 table td
 {
     border: 3px solid rgb(31, 160, 153);
     text-align:30px;
+    vertical-align: sub; 
+    /* I figured out how to align my text in the box of the table usinf the vertical-align */
 }
 
 table th
