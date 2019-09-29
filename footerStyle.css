@@ -6,3 +6,9 @@ footer
    color: white;
    text-align: center;
 }
+
+div
+{
+align-content: center;
+float:left;
+}
