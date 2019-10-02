@@ -1,14 +1,6 @@
 body
 {
     background-color: lavender; text-align: left;  display: inline-grid;
-}
-
-#social_Media
-{
     
-    display: inline-block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+    
 }
