@@ -1,42 +1,146 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <link rel="stylesheet" type="text/css" href="style.css">
-        <title> IS3847 Assignment 1 </title>
-        
-        
-    </head>
-       <!-- <body background ="./resource/chris-ried-ieic5Tq8YMk-unsplash.jpg"> -->
 
-        <header src="./resource/chris-ried-ieic5Tq8YMk-unsplash.jpg"> 
-            <h2> Welcome to IS3847 Women's Intro Hack! </h2> 
-        </header>
+<head>
+    <title> Assignment 1 </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-        <section>
-        <nav>
-           <ul>
-            <li><a href="rowz.html">Rowz</a></li>
-            <li><a href="sydney.html">Sydney</a></li>
-            <li><a href="nicole.html">Nicole</a></li>
-           </ul> 
-        </nav>
-        <article>
-            <h1> Rowz</h1>
-            <p> intro </p>
-            <img src="./resource/WECode.jpe" width="250" height="250" align="right">
-            
-        </article>
-    </section>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+        }
 
-    <footer src="./resource/22360423.jpg">
-        <p> Footer </p>
+        .header {
+            padding: 50px;
+            text-align: center;
+            background: whitesmoke;
+            color: black;
+        }
+
+        .header h1 {
+            font-size: 40px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .side {
+            flex: 30%;
+            background-color: antiquewhite;
+            padding: 20px;
+        }
+
+        .main {
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        a:link {
+            color: black;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <H1> ASSIGNMENT 1 </H1>
+    </div>
+
+    <div class="navbar">
+        <a href="./project1.html">Home</a>
+        <a href="./nicole.html">Nicole</a>
+        <a href="./rowz.html">Rowz</a>
+        <a href="./home_page.html">Sydney</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h1> Instructor: </h1>
+            <h1 style="text-align: right"> Mohamed Langi</h1>
+            <br>
+            <h3> Due Date : 9/25/2019 </h3>
+            <br>
+
+            <p> GitHub Classroom assignment link: <a href=" https://classroom.github.com/g/9RYqdY5A">
+                    https://classroom.github.com/9RYqdY5A </a> </p> <br>
+            <p>
+                The purpose of this assignment is to get the students familiar with HTML and using basic HTML tags
+                to create a static web site.
+            </p>
+
+            <br>
+        </div>
+
+        <div class="main">
+            <h2> Requirements </h2>
+
+            <ul>
+                <li>Min of 3 HTML pages linked together</li>
+                <li> Usage of HTML 5 tags</li>
+                <li> Usage of &lt;a&gt; to jump to specific section </li>
+                <li> Usage of &lt;ol&gt; tag </li>
+                <li> Usage of &lt;ul&gt; </li>
+                <ol>
+                    <li> Nested list</li>
+                </ol>
+                <li> Usage of &lt;table&gt; tag </li>
+                <li> Usage of forms tags </li>
+                <li> Usage of &lt;nav&gt; and &lt;footer&gt; tags </li>
+                <li> Usage of &lt;img&gt; </li>
+                <li> Some kind of styling is being applied to website</li>
+                <li> User friendly</li>
+                <li> The website reflects some basic designs and thoughtfulness</li>
+                <li> No JavaScript or CDN libraries when working on this assignment</li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+
+    <footer style="text-align: center">
+        The content of the website could be anything the team decides on, as long as its
+        <b>appropriate</b>. I want to open the content to the teams to allow for more team collaboration. <br> If you
+        have
+        questions about the project please consult your <b>group</b> before reaching out to me. And remember the best
+        way to
+        get a hold of me is <b><em>Slack</em></b>. <br>
+        &copy; 2019 Rosemary Romero
     </footer>
 
-        <!-- <section #Images> -->
-<!-- <img src="resource/WECode.jpe" width="250" height="250" alt="We Code">
-<br>
-<img src="./resource/chris-ried-ieic5Tq8YMk-unsplash.jpg" width="250" height="250" alt="Code Image"> -->
+</body>
 
-    </body>
-
-</html> 
+</html>
