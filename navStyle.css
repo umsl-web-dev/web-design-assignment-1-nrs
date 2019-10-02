@@ -11,7 +11,7 @@ nav ul
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(4, 165, 185);
+    background-color: rgb(21, 38, 132);
 }
   
 nav li 
@@ -38,17 +38,17 @@ nav li a:hover
 
 #current2 .active2 
 {
-  background: linear-gradient(to left,#1ac95de5,#0457ef);
+  background: linear-gradient(to left,#ff7a4a,#0457ef);
     /* background-color: #1ac95de5; */
 }
 
 #current .active 
 {
-  background: linear-gradient(to right,#1ac95de5,#0457ef);
+  background: linear-gradient(to right,#ff7a4a,#0457ef);
     /* background-color: #1ac95de5; */
 }
 .active 
 {
-    background-color: #1ac95de5;
+    background-color: #ff7a4a;
 }
   

@@ -1,6 +1,6 @@
 footer
     {
-        background-color: #242729;
+       
         background-image: none;
         background-position: top left;
         background-repeat: no-repeat;
@@ -18,7 +18,8 @@ footer
         align-items: center; /* Use another value to see the result */
         width: 100%;
         height: 200px;
-        background-color: #1faadb;
+        /* background-color: #1faadb; */
+        background: linear-gradient(to top,#ff7a4a,#0457ef);
   }
 
   
